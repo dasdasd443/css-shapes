@@ -1,0 +1,44 @@
+.trapezoid::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 50px solid black;
+}
+
+.heart::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  left: 0px;
+  top: -9.5px;
+}
+
+.heart {
+  width: 0;
+  height: 0;
+  position: relative;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid red;
+  left: -5px;
+  top: 100px;
+}
+
+.heart::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  left: -5px;
+  top: -9.5px;
+}
+
+/*# sourceMappingURL=style.css.map */
